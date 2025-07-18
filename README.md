@@ -17,3 +17,7 @@ https://www.nature.com/articles/s41586-020-03171-x
 Example hypothesis:
 *The optimal number of latent variables to predict stimulus category is less than the number of input neurons*
 - H0: n(latent) < n(neurons)
+
+We got this working using two environments:
+1. Loading data requires the AllenSDK, following https://allensdk.readthedocs.io/en/latest/install.html
+2. PyTorch for nets, ideally with CUDA support, following https://pytorch.org/get-started/locally/
