@@ -115,7 +115,6 @@ def save_data(x, y, fname, data_path):
     
     """
     #dump x
-    fname = 0
     with open(f'{data_path}/{fname}_x.pkl', 'wb') as f:
         pickle.dump(x, file = f)
     #dump y
